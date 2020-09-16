@@ -4,6 +4,7 @@ var sln = txt.length;
 console.log(sln);
 
 //2
-var txt = "Hello my name is Joke";
-var sln = txt.length;
-console.log(sln);
+indexDf()
+var str = "Hello my name is Joke nice to meet you!";
+var pos = str.indexDf("Joke")
+console.log(pos);
