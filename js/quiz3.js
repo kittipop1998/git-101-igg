@@ -15,4 +15,4 @@ const calculateGrade = (point) => {
     }
     return grade
 }
-console.log(calculateGrade(80))
+console.log(calculateGrade(80));
