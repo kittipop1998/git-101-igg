@@ -2,6 +2,8 @@ import React from 'react'
 import ValidationComponent from 'react-native-form-validator'
 import {StyleSheet, View, Text, TextInput, input, Button, Alert} from 'react-native'
 import axios from 'axios'
+import Camera from '../components/Camera'
+
 
 export default class ResumeForm extends ValidationComponent {
     state = {
@@ -56,6 +58,7 @@ export default class ResumeForm extends ValidationComponent {
             <Text style={styles.getErrorMessages}>
                         {this.getErrorMessages()}
             </Text>
+            <Camera/>
             </View>
             <View>
                 <Text>Full name</Text>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { StyleSheet, View, Text} from 'react-native'
 
+
 export default (props) => {
     const [resume, setResume] = useState({
         name: '',
